@@ -8,12 +8,12 @@ import idv.ycy.designpattern.structural.facade.component.Gear.GearPosition;
 public class Car {
 	private static Logger log = Logger.getLogger(Car.class);
 	
+	private Gear gear = new Gear();
+	private Seatbelt seatbelt = new Seatbelt();
+	private Brake brake = new Brake();
+	private Engine engine = new Engine();
+	
 	public void start() {
-
-		Gear gear = new Gear();
-		Seatbelt seatbelt = new Seatbelt();
-		Brake brake = new Brake();
-		Engine engine = new Engine();
 		
 		seatbelt.wear();
 		brake.hold();
