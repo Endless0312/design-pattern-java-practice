@@ -8,6 +8,9 @@ Reference Books & Website
 * [Head First Design Patterns - O'REILLY](http://shop.oreilly.com/product/9780596007126.do)
 * [Best Practice Software Engineering](http://best-practice-software-engineering.ifs.tuwien.ac.at/patternmap.html)
 
+Eclipse Plugin
+* [ObjectAid UML Explorer for Eclipse](http://www.objectaid.com/home)
+(There is a folder named "uml" stores class diagram for each pattern, in order to open *.ucls you need to install plugin above. )  
 
 
 ***

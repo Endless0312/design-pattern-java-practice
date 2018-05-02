@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="idv.ycy.designpattern.creational.abstractfactory.Tire" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/Tire.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="240" x="322" y="250"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="idv.ycy.designpattern.creational.abstractfactory.Car" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/Car.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="240" x="648" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.SedanFactory" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/SedanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="263" x="42" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.Bus" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/Bus.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="263" x="602" y="250"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.BusFactory" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/BusFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="263" x="345" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.BusTire" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/BusTire.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="263" x="473" y="427"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="idv.ycy.designpattern.creational.abstractfactory.CarFactory" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/CarFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="240" x="42" y="250"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.SedanTire" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/SedanTire.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="263" x="170" y="427"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="idv.ycy.designpattern.creational.abstractfactory.impl.Sedan" 
+    project="design-pattern-java-practice" 
+    file="/design-pattern-java-practice/src/main/java/idv/ycy/designpattern/creational/abstractfactory/impl/Sedan.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="263" x="905" y="250"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="11">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="tire"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
