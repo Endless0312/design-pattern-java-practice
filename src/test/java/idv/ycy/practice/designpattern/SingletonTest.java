@@ -1,9 +1,9 @@
-package idv.ycy.practice.designpattern.singleton;
+package idv.ycy.practice.designpattern;
 
 import idv.ycy.designpattern.creational.singleton.Car;
 import junit.framework.TestCase;
 
-public class PatternTest extends TestCase {
+public class SingletonTest extends TestCase {
 
 	Car car = Car.getInstance();
 	
