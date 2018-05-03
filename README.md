@@ -19,7 +19,7 @@ Eclipse Plugin
 * _Factory method Pattern_ (Done)
 * _Abstract factory Pattern_ (Done)
 * _Prototype Pattern_ (Done)
-* _Builder Pattern_ (Working...)
+* _Builder Pattern_ (Done)
 
 ## Structural
 * _AdapterPattern_ (Working...)
